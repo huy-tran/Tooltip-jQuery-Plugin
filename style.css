@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	width: 960px;
+	margin: 100px auto;
+}
+
+.bng-button {
+	padding: 10px;
+	background: #ffa800;
+	display: inline-block;
+	position: relative;
+}
+.bng-tooltip {
+	position: relative;
+	cursor: pointer;
+}
+span.bng-arrow {
+	width: 0;
+	height: 0;
+	margin-left: -8px;
+	border-style: solid;
+	position: absolute;
+	left: 50%;
+	line-height: 0px;
+}
+.bng-arrow-down {
+	border-width: 8px 8px 0 8px;
+	border-color: #da2e2b transparent transparent transparent;
+	top: 100%;
+}
+.bng-arrow-up {
+	border-width: 0 8px 8px 8px;
+	border-color: transparent transparent #da2e2b transparent;
+	top: -8px;	
+}
+#bngTooltip {
+	font-style: italic;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+	position: absolute;
+	display: none;
+}
+#bngTooltip img {
+	width: 100%;
+}
+
